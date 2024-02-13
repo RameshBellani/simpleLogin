@@ -1,0 +1,99 @@
+/* Additional styles for inputs, links, and buttons */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10px; /* Increased padding */
+    font-size: 20px; /* Increased font size */
+    text-align: center; /* Center-align header content */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center-align navigation links */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Increased margin */
+}
+
+nav ul li a {
+    color: #fff; /* Text color */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Hover color */
+}
+
+main {
+    padding: 40px; /* Increased padding */
+    text-align: center; /* Center-align main content */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+    padding: 10px; /* Increased padding */
+    margin-bottom: 10px; /* Added margin */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff; /* White background */
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #555; /* Hover background color */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Increased padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.upload-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.upload-btn:hover {
+    background-color: #555; /* Hover background color */
+}
+
+.logout-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.logout-link:hover {
+    color: #555; /* Hover color */
+}
